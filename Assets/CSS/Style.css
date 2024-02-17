@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+
+  }
+  
+  body {
+    font-family: papyrus;
+    margin: 0;
+    background-color: #616d69;
+  }
+  
+  header {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px;
+    text-align: center;
+
+  }
+  
+  nav {
+    display: flex;
+    background-color: #c3b291;
+  }
+  
+  nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  aside {
+    flex: 30%;
+    background-color: #87b1cb
+    ;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  /* Tablets - header changes color */
+  @media screen and (max-width: 1000px) {
+    header {
+      background: #819396;
+    }
+  }
+  
+  /* With medium screens such as tablets, the navbar changes color */
+  @media screen and (max-width: 1000px) {
+    nav {
+      background-color: #f8d598;
+    }
+  }
+  
+  
