@@ -6,12 +6,14 @@
 
   }
   
+  /* Body Settings */
   body {
     font-family: papyrus;
     margin: 0;
     background-color: #616d69;
   }
   
+  /* Header Css Settings */
   header {
     max-width: 100%;
     max-height: 100%;
@@ -19,7 +21,7 @@
     text-align: center;
 
   }
-  
+   /*Navigation Bar*/
   nav {
     display: flex;
     background-color: #c3b291;
@@ -30,10 +32,14 @@
     text-decoration: none;
   }
   
+  /* Main body*/
+
   main {
     display: flex;
   }
   
+  /* Side bar CSS settings */
+
   aside {
     flex: 30%;
     background-color: #87b1cb
@@ -48,14 +54,14 @@
     padding: 20px;
   }
 
-  /* Tablets - header changes color */
+  /* Tablets - header and Navigation bar changes color */
   @media screen and (max-width: 1000px) {
     header {
       background: #819396;
     }
   }
   
-  /* With medium screens such as tablets, the navbar changes color */
+  /* With medium screens such as tablets, the navigation bar and header changes color */
   @media screen and (max-width: 1000px) {
     nav {
       background-color: #f8d598;
