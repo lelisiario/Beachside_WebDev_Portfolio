@@ -34,28 +34,49 @@
   
   /* Main body*/
   main {
-    column-count: 3;
-    column-span: inherit;
     display: flex;
     flex-wrap: wrap;
   }
   
   /* Side bar CSS settings */
   aside {
-    flex: 0 0 30%;
-    flex-direction: row;
+    width: 300px;
     background-color: #87b1cb;
-    padding: 20px;
-    box-sizing: border-box;
+    min-height: 1000px;
   }
   
-  section {
+  .card-about-me {
     flex: 1;
     background-color: #fff;
-    padding: 20px;
-    border: solid;
-    box-sizing: border-box;
+    padding: 5px;
+    border: 1px dashed;
     flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 50%;
+    display: flex;
+    }
+
+  .card-work {
+    flex: 1;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px dashed;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 50%;
+    display: flex;
+  }
+
+  .card-contact {
+    flex: 1;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px dashed;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 50%;
+    display: flex;
   }
 
   /* Tablets - header and Navigation bar changes color */
