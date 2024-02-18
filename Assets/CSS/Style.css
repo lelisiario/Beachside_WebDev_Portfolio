@@ -42,10 +42,10 @@
   aside {
     width: 300px;
     background-color: #87b1cb;
-    min-height: 1000px;
+    min-height: 750px;
   }
   
-  .card-about-me {
+ /* .card-work {
     flex: 1;
     background-color: #fff;
     padding: 5px;
@@ -55,8 +55,9 @@
     min-width: 50%;
     display: flex;
     }
-
+*/
   .card-work {
+    min-height: 750px;
     flex: 1;
     background-color: #fff;
     padding: 5px;
