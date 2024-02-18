@@ -1,19 +1,19 @@
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: content-box;
-
   }
   
   /* Body Settings */
   body {
-    font-family: papyrus;
+    font-family: papyrus, sans-serif;
     margin: 0;
     background-color: #616d69;
   }
   
-  /* Header Css Settings */
+  /* Header CSS Settings */
   header {
     max-width: 100%;
     max-height: 100%;
@@ -33,25 +33,29 @@
   }
   
   /* Main body*/
-
   main {
+    column-count: 3;
+    column-span: inherit;
     display: flex;
-  }
-  
-  /* Side bar CSS settings */
-
-  aside {
-    flex: 30%;
-    background-color: #87b1cb
-    ;
-    padding: 20px;
     flex-wrap: wrap;
   }
   
+  /* Side bar CSS settings */
+  aside {
+    flex: 0 0 30%;
+    flex-direction: row;
+    background-color: #87b1cb;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
   section {
-    flex: 70%;
+    flex: 1;
     background-color: #fff;
     padding: 20px;
+    border: solid;
+    box-sizing: border-box;
+    flex-direction: column;
   }
 
   /* Tablets - header and Navigation bar changes color */
