@@ -5,13 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-
   </head>
+
     <!-- My Navbar -->
     <nav>
       <p>
         This site will serve as a portfolio site in addition to my GitHub profile.
       </p>
+      <ul>
+        <li><a href="#aboutMe" target="_self"> <strong>About Me </strong> </a></li>
+      </ul>
+      <ul>
+       <li><a href="#work" target="_self"><strong> Work </strong> </a></li>   
+      </ul>
+      <ul>
+      <li><a href="#contactMe" target="_self"> <strong> Contact Me </strong> </a></li>    
+      </ul>
     </nav>
 
   <body>
@@ -26,7 +35,7 @@
 
     <!-- My Body Section -->
     <main>
-      <aside>
+      <aside id="aboutMe"> <a href="./Assets/CSS/Lauren Circle Image.png" alt="Current Picture of me"></a>
         <h1>About Me!</h1>
         <br></br>
         <p>My name is Lauren Elisiario, and I am attending a Full-Stack Web Developement Bootcamp through UC Berkley Extention. My completion date will be July 18th, 2024.</p>
@@ -34,12 +43,14 @@
         <p> I have some prior work on my GitHub account which you can find in the "Contact Me!" section</p>
       </aside>
 
-      <section class="card-work">
+      <section class="card-work" id="work">
         <h1>Work</h1>
         <p>work that I have done and plan to do.</p>
+        <container class="firstHTMLSite"> <a href="./Assets/CSS/first site.PNG" Alt="First Project"></a>
+        </container>
       </section>
 
-      <section class="card-contact"> 
+      <section class="card-contact" id="contactMe"> 
         <h1> Contact Me! </h1>
           <p>You can reach me at:</p>
 <ul>

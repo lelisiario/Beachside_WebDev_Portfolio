@@ -1,7 +1,7 @@
 /* Reset CSS */
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     border: 0;
     box-sizing: content-box;
   }
@@ -19,17 +19,52 @@
     max-height: 100%;
     padding: 0px;
     text-align: center;
-
+    padding: 0px;
   }
    /*Navigation Bar*/
   nav {
     display: flex;
     background-color: #c3b291;
+    padding-left: 5px;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block;
+    padding: 5px;
   }
   
   nav p {
-    padding: 14px 20px;
+    flex: 1;
     text-decoration: none;
+    outline-color: transparent;
+    text-align: left;
+    line-height: 3;
+    color: black;
+    display: flex;
+  }
+  #aboutMe {
+    padding-top: 10px;
+    padding-right: 10px;
+    border-right: 1px black solid;
+  }
+  strong {
+    float: -5px right;
+  }
+  
+  a:link,
+  a:visited,
+  a:focus {
+    background: #e9d3ac;
+    color: black;
+  }
+  
+  a:hover {
+    background: orange;
+  }
+  
+  a:active {
+    background: darkred;
+    color: white;
   }
   
   /* Main body*/
@@ -45,23 +80,12 @@
     min-height: 750px;
   }
   
- /* .card-about-me {
-    flex: 1;
-    background-color: #fff;
-    padding: 5px;
-    border: 1px dashed;
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-width: 50%;
-    display: flex;
-    }
-*/
+  /* Sections */
   .card-work {
     min-height: 750px;
     flex: 1;
     background-color: #fff;
     padding: 5px;
-    border: 1px dashed;
     flex-direction: column;
     flex-wrap: wrap;
     min-width: 50%;
@@ -72,7 +96,6 @@
     flex: 1;
     background-color: #fff;
     padding: 5px;
-    border: 1px dashed;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,17 +103,60 @@
     display: flex;
   }
 
-  /* Tablets - header and Navigation bar changes color */
-  @media screen and (max-width: 1000px) {
+  .card-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  /* Work */
+  .firstHTMLSite {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(146, 209, 167);
+    padding: 10px;
+    height: 45%;
+    position: relative;
+    top: -80px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+img 
+
+  /* Footer Sections */
+  footer {
+    background-color: #daf8fd;
+    margin: 15px;
+  }
+
+  /* Tablets - header and navigation bar changes color */
+  @media screen and (max-width: 992px) {
     header {
-      background: #819396;
+      background: #c4f6ff;
     }
   }
+
+  /* Large smartphones - header and navigation bar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #ffde96;
+  }
+}
   
-  /* With medium screens such as tablets, the navigation bar and header changes color */
-  @media screen and (max-width: 1000px) {
+  /* Phones the header and nevigation bar changes color */
+  @media screen and (max-width: 576px) {
     nav {
       background-color: #f8d598;
+    }
+    header {
+      background-color: antiquewhite;
     }
   }
   
