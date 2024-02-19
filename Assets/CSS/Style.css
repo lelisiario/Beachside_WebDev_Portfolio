@@ -80,6 +80,10 @@
     min-height: 750px;
   }
   
+  img #aboutMe {
+    border-radius: 40%;
+  }
+
   /* Sections */
   .card-work {
     min-height: 750px;
@@ -90,6 +94,7 @@
     flex-wrap: wrap;
     min-width: 50%;
     display: flex;
+    background-image: url('https://github.com/lelisiario/Personal-Website');
   }
 
   .card-contact {
@@ -103,37 +108,30 @@
     display: flex;
   }
 
-  .card-work {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
+.firstHTMLSite a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
-  /* Work */
-  .firstHTMLSite {
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(146, 209, 167);
-    padding: 10px;
-    height: 45%;
-    position: relative;
-    top: -80px;
-  }
+.firstHTMLSite img {
+  max-width: 50%;
+  border: 3px solid rgb(146, 209, 167);
+  padding: 0;
+  position: relative;
+  transition: transform 0.3s ease;
+  align-items: center;
+}
 
-  img {
-    border-radius: 50%;
-  }
-
-img 
+.firstHTMLSite:hover img {
+  transform: scale(1.1);
+}
 
   /* Footer Sections */
   footer {
     background-color: #daf8fd;
     margin: 15px;
+    top: -80;
   }
 
   /* Tablets - header and navigation bar changes color */
