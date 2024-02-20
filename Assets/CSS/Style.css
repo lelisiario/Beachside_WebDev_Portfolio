@@ -50,7 +50,7 @@
   strong {
     float: -5px right;
   }
-  
+
   a:link,
   a:visited,
   a:focus {
@@ -63,7 +63,7 @@
   }
   
   a:active {
-    background: darkred;
+    background: rgb(228, 132, 7);
     color: white;
   }
   
@@ -85,8 +85,8 @@
   }
 
   /* Sections */
-  .card-work {
-    min-height: 750px;
+  .sectionWork {
+    min-height: 1000px;
     flex: 1;
     background-color: #fff;
     padding: 5px;
@@ -97,7 +97,7 @@
     background-image: url('https://github.com/lelisiario/Personal-Website');
   }
 
-  .card-contact {
+  .sectionContact {
     flex: 1;
     background-color: #fff;
     padding: 5px;
@@ -110,7 +110,6 @@
 
 .firstHTMLSite a {
   display: flex;
-  justify-content: center;
   align-items: center;
   }
 
@@ -121,6 +120,8 @@
   position: relative;
   transition: transform 0.3s ease;
   align-items: center;
+  background: url(https://lelisiario.github.io/Personal-Website/);
+  
 }
 
 .firstHTMLSite:hover img {
