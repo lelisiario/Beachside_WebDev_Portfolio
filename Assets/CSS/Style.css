@@ -10,7 +10,7 @@
   body {
     font-family: papyrus, sans-serif;
     margin: 0;
-    background-color: #616d69;
+    background-color: #d6dfd9;
   }
   
   /* Header CSS Settings */
@@ -24,7 +24,7 @@
    /*Navigation Bar*/
   nav {
     display: flex;
-    background-color: #c3b291;
+    background-color: #e6e1c4;
     padding-left: 5px;
     list-style: none;
   }
@@ -54,7 +54,7 @@
   a:link,
   a:visited,
   a:focus {
-    background: #e9d3ac;
+    background: #fefef7;
     color: black;
   }
   
@@ -80,12 +80,12 @@
     min-height: 750px;
   }
   
-  img #aboutMe {
+  img #aboutme {
     border-radius: 40%;
   }
 
   /* Sections */
-  .sectionWork {
+  .sectionwork {
     min-height: 1000px;
     flex: 1;
     background-color: #fff;
@@ -97,7 +97,7 @@
     background-image: url('https://github.com/lelisiario/Personal-Website');
   }
 
-  .sectionContact {
+  .sectioncontact {
     flex: 1;
     background-color: #fff;
     padding: 5px;
@@ -108,12 +108,12 @@
     display: flex;
   }
 
-.firstHTMLSite a {
+.firsthtmlsite a {
   display: flex;
   align-items: center;
   }
 
-.firstHTMLSite img {
+.firsthtmlsite img {
   max-width: 50%;
   border: 3px solid rgb(146, 209, 167);
   padding: 0;
@@ -124,20 +124,20 @@
   
 }
 
-#Mini {
+#mini {
 max-width: 25%;
 align-items: center;
 background: url(https://github.com/lelisiario/Mini-2)
 }
 
-.firstHTMLSite:hover img {
+.firsthtmlsite:hover img {
   transform: scale(1.1);
 }
 
   /* Footer Sections */
   footer {
     background-color: #daf8fd;
-    margin: 15px;
+    margin: 0;
     top: -80;
   }
 
