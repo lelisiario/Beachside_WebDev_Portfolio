@@ -25,11 +25,13 @@ I was unable to add much work as we haven't completed much, though I will be upd
 This is a web application, there is no need for installation.
 
 ## Usage
-![alt text](assets/images/image.png)
+![Screnshot of intended webpage design](assets/images/image.png)
 It screenshot shows what my portfolio site is supposed to look like.
 
-![alt text](assets/images/Portfolio%20Site%20Live.PNG)
-This screenshot highlights an issue that I had when I pushed the site live. The lesson I learned from this is that it could be a caps issue within the HTML or it could be an issue having to do with relative vs. absolute path.
+![deployed site with error](assets/images/Portfolio%20Site%20Live.PNG)
+This screenshot highlights an issue that I had when I pushed the site live. The lesson I learned from this is that it was an issue with the name of the sytlesheet.
+![Deployed site screencap](assets/images/Screenshot_Deployed_Site.PNG)
+This screenshot is the final screencap of the deployed site.
 
 ## License
 
