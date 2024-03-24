@@ -1,127 +1,127 @@
 /* Reset CSS */
 * {
-    margin: 0;
-    padding: 0px;
-    border: 0;
-    box-sizing: content-box;
-  }
-  
-  /* Body Settings */
-  body {
-    font-family: papyrus, sans-serif;
-    margin: 0;
-    background-color: #d6dfd9;
-  }
-  
-  /* Header CSS Settings */
-  header {
-    max-width: 100%;
-    max-height: 100%;
-    padding: 0px;
-    text-align: center;
-    padding: 0px;
-  }
-   /*Navigation Bar*/
-  nav {
-    display: flex;
-    background-color: #e6e1c4;
-    padding-left: 5px;
-    list-style: none;
-  }
-  nav li {
-    display: inline-block;
-    padding: 5px;
-  }
-  
-  nav p {
-    flex: 1;
-    text-decoration: none;
-    outline-color: transparent;
-    text-align: left;
-    line-height: 3;
-    color: black;
-    display: flex;
-  }
-  #aboutMe {
-    padding-top: 10px;
-    padding-right: 10px;
-    border-right: 1px black solid;
-  }
-  strong {
-    float: -5px right;
-  }
+  margin: 0;
+  padding: 0px;
+  border: 0;
+  box-sizing: content-box;
+}
 
-  a:link,
-  a:visited,
-  a:focus {
-    background: #fefef7;
-    color: black;
-  }
-  
-  a:hover {
-    background: orange;
-  }
-  
-  a:active {
-    background: rgb(228, 132, 7);
-    color: white;
-  }
-  
-  /* Main body*/
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Side bar CSS settings */
-  aside {
-    width: 300px;
-    background-color: #87b1cb;
-    min-height: 750px;
-  }
-  
-  img #aboutme {
-    border-radius: 40%;
-  }
+/* Body Settings */
+body {
+  font-family: papyrus, sans-serif;
+  margin: 0;
+  background-color: #d6dfd9;
+}
 
-  /* Sections */
-  .sectionwork {
-    min-height: 1000px;
-    flex: 1;
-    background-color: #fff;
-    padding: 5px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-width: 50%;
-    display: flex;
-    background-image: url('https://github.com/lelisiario/Personal-Website');
-  }
+/* Header CSS Settings */
+header {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px;
+  text-align: center;
+  padding: 0px;
+}
+ /*Navigation Bar*/
+nav {
+  display: flex;
+  background-color: #e6e1c4;
+  padding-left: 5px;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 5px;
+}
 
-  .sectioncontact {
-    flex: 1;
-    background-color: #fff;
-    padding: 5px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 50%;
-    display: flex;
-  }
+nav p {
+  flex: 1;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: left;
+  line-height: 3;
+  color: black;
+  display: flex;
+}
+#aboutMe {
+  padding-top: 10px;
+  padding-right: 10px;
+  border-right: 1px black solid;
+}
+strong {
+  float: -5px right;
+}
+
+a:link,
+a:visited,
+a:focus {
+  background: #fefef7;
+  color: black;
+}
+
+a:hover {
+  background: orange;
+}
+
+a:active {
+  background: rgb(228, 132, 7);
+  color: white;
+}
+
+/* Main body*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Side bar CSS settings */
+aside {
+  width: 300px;
+  background-color: #87b1cb;
+  min-height: 750px;
+}
+
+img #aboutme {
+  border-radius: 40%;
+}
+
+/* Sections */
+.sectionwork {
+  min-height: 1000px;
+  flex: 1;
+  background-color: #fff;
+  padding: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 50%;
+  display: flex;
+  background-image: url('https://github.com/lelisiario/Personal-Website');
+}
+
+.sectioncontact {
+  flex: 1;
+  background-color: #fff;
+  padding: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 50%;
+  display: flex;
+}
 
 .firsthtmlsite a {
-  display: flex;
-  align-items: center;
-  }
+display: flex;
+align-items: center;
+}
 
 .firsthtmlsite img {
-  max-width: 50%;
-  border: 3px solid rgb(146, 209, 167);
-  padding: 0;
+max-width: 50%;
+border: 3px solid rgb(146, 209, 167);
+padding: 0;
 
-  transition: transform 0.3s ease;
-  align-items: center;
-  background: url(https://lelisiario.github.io/Personal-Website/);
-  
+transition: transform 0.3s ease;
+align-items: center;
+background: url(https://lelisiario.github.io/Personal-Website/);
+
 }
 
 #mini {
@@ -131,38 +131,39 @@ background: url(https://github.com/lelisiario/Mini-2)
 }
 
 .firsthtmlsite:hover img {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
-  /* Footer Sections */
-  footer {
-    background-color: #daf8fd;
-    margin: 0;
-    top: -80;
-  }
+/* Footer Sections */
+footer {
+  background-color: #daf8fd;
+  margin: 0;
+  top: -80;
+}
 
-  /* Tablets - header and navigation bar changes color */
-  @media screen and (max-width: 992px) {
-    header {
-      background: #c4f6ff;
-    }
+/* Tablets - header and navigation bar changes color */
+@media screen and (max-width: 992px) {
+  header {
+    background: #c4f6ff;
   }
+}
 
-  /* Large smartphones - header and navigation bar changes color */
+/* Large smartphones - header and navigation bar changes color */
 @media screen and (max-width: 768px) {
+nav {
+  background-color: #ffde96;
+}
+}
+
+/* Phones the header and nevigation bar changes color */
+@media screen and (max-width: 576px) {
   nav {
-    background-color: #ffde96;
+    background-color: #f8d598;
+  }
+  header {
+    background-color: antiquewhite;
   }
 }
-  
-  /* Phones the header and nevigation bar changes color */
-  @media screen and (max-width: 576px) {
-    nav {
-      background-color: #f8d598;
-    }
-    header {
-      background-color: antiquewhite;
-    }
-  }
+
   
   
