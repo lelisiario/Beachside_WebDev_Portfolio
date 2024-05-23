@@ -108,20 +108,19 @@ img #aboutme {
   display: flex;
 }
 
-.firsthtmlsite a {
+.catzzeria a {
 display: flex;
 align-items: center;
 }
 
-.firsthtmlsite img {
+.catzzeria img {
 max-width: 50%;
 border: 3px solid rgb(146, 209, 167);
 padding: 0;
 
 transition: transform 0.3s ease;
 align-items: center;
-background: url(https://lelisiario.github.io/Personal-Website/);
-
+background: url(https://alfwall.github.io/catzzeria/);
 }
 
 #mini {
